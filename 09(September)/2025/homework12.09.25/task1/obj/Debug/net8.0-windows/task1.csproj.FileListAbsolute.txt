@@ -1,0 +1,15 @@
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\bin\Debug\net8.0-windows\task1.exe
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\bin\Debug\net8.0-windows\task1.deps.json
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\bin\Debug\net8.0-windows\task1.runtimeconfig.json
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\bin\Debug\net8.0-windows\task1.dll
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\bin\Debug\net8.0-windows\task1.pdb
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\obj\Debug\net8.0-windows\task1.GeneratedMSBuildEditorConfig.editorconfig
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\obj\Debug\net8.0-windows\task1.AssemblyInfoInputs.cache
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\obj\Debug\net8.0-windows\task1.AssemblyInfo.cs
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\obj\Debug\net8.0-windows\task1.csproj.CoreCompileInputs.cache
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\obj\Debug\net8.0-windows\task1.sourcelink.json
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\obj\Debug\net8.0-windows\task1.dll
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\obj\Debug\net8.0-windows\refint\task1.dll
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\obj\Debug\net8.0-windows\task1.pdb
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\obj\Debug\net8.0-windows\task1.genruntimeconfig.cache
+D:\topacademy\academy_homewrok\09(September)\2025\homework12.09.25\task1\obj\Debug\net8.0-windows\ref\task1.dll
