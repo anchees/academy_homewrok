@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User>
+    <Name>авыавы</Name>
+    <Surname>ываыввыа</Surname>
+    <Email>авыавы</Email>
+    <Phone>аыввыаыв</Phone>
+  </User>
+</ArrayOfUser>
