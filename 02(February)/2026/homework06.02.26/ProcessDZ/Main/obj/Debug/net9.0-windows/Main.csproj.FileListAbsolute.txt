@@ -1,0 +1,15 @@
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\bin\Debug\net9.0-windows\Main.exe
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\bin\Debug\net9.0-windows\Main.deps.json
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\bin\Debug\net9.0-windows\Main.runtimeconfig.json
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\bin\Debug\net9.0-windows\Main.dll
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\bin\Debug\net9.0-windows\Main.pdb
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\obj\Debug\net9.0-windows\Main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\obj\Debug\net9.0-windows\Main.AssemblyInfoInputs.cache
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\obj\Debug\net9.0-windows\Main.AssemblyInfo.cs
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\obj\Debug\net9.0-windows\Main.csproj.CoreCompileInputs.cache
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\obj\Debug\net9.0-windows\Main.sourcelink.json
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\obj\Debug\net9.0-windows\Main.dll
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\obj\Debug\net9.0-windows\refint\Main.dll
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\obj\Debug\net9.0-windows\Main.pdb
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\obj\Debug\net9.0-windows\Main.genruntimeconfig.cache
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\Main\obj\Debug\net9.0-windows\ref\Main.dll

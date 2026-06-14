@@ -1,0 +1,15 @@
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\bin\Debug\net9.0\ChildApp.exe
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\bin\Debug\net9.0\ChildApp.deps.json
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\bin\Debug\net9.0\ChildApp.runtimeconfig.json
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\bin\Debug\net9.0\ChildApp.dll
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\bin\Debug\net9.0\ChildApp.pdb
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\obj\Debug\net9.0\ChildApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\obj\Debug\net9.0\ChildApp.AssemblyInfoInputs.cache
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\obj\Debug\net9.0\ChildApp.AssemblyInfo.cs
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\obj\Debug\net9.0\ChildApp.csproj.CoreCompileInputs.cache
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\obj\Debug\net9.0\ChildApp.sourcelink.json
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\obj\Debug\net9.0\ChildApp.dll
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\obj\Debug\net9.0\refint\ChildApp.dll
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\obj\Debug\net9.0\ChildApp.pdb
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\obj\Debug\net9.0\ChildApp.genruntimeconfig.cache
+C:\Users\tyttr\OneDrive\Документы\topAcademy\academy_homewrok\02(February)\2026\homework06.02.26\ProcessDZ\ChildApp\obj\Debug\net9.0\ref\ChildApp.dll
