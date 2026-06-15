@@ -1,0 +1,45 @@
+﻿<Window x:Class="Main.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Сервер курса валют"
+        Height="650"
+        Width="900">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Text="Порт:" VerticalAlignment="Center"/>
+            <TextBox x:Name="PortBox" Text="5000" Width="80" Margin="5"/>
+
+            <TextBlock Text="Макс. запросов:" VerticalAlignment="Center"/>
+            <TextBox x:Name="MaxRequestsBox" Text="5" Width="80" Margin="5"/>
+
+            <TextBlock Text="Макс. клиентов:" VerticalAlignment="Center"/>
+            <TextBox x:Name="MaxClientsBox" Text="3" Width="80" Margin="5"/>
+
+            <Button Content="Запустить сервер"
+                    Width="150"
+                    Margin="10,0,0,0"
+                    Click="StartButton_Click"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBox x:Name="LoginBox" Width="120" Text="user"/>
+            <TextBox x:Name="PasswordBox" Width="120" Text="123" Margin="5,0"/>
+            <Button Content="Добавить пользователя"
+                    Width="180"
+                    Click="AddUserButton_Click"/>
+        </StackPanel>
+
+        <TextBox x:Name="LogBox"
+                 Grid.Row="2"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto"
+                 TextWrapping="Wrap"/>
+    </Grid>
+</Window>
