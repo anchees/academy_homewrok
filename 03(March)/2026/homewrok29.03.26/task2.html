@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .box {
+            width: 700px;
+            height: 220px;
+            margin: 100px auto;
+            position: relative;
+        }
+
+        .text {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top: 95px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .door {
+            width: 350px;
+            height: 220px;
+            background-color: #8b2b64;
+            border: 5px solid #5b123f;
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            transition: transform 2s;
+            z-index: 2;
+        }
+
+        .left {
+            left: 0;
+            transform-origin: left;
+        }
+
+        .right {
+            right: 0;
+            transform-origin: right;
+        }
+
+        .box:hover .left {
+            transform: perspective(600px) rotateY(60deg);
+        }
+
+        .box:hover .right {
+            transform: perspective(600px) rotateY(-60deg);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <div class="text">HELLO</div>
+        <div class="door left"></div>
+        <div class="door right"></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .todo {
+            width: 500px;
+            margin: 30px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+            padding: 12px;
+        }
+
+        li:nth-child(odd) {
+            background-color: #a8d8e6;
+        }
+
+        li:nth-child(even) {
+            background-color: #c2e7f0;
+        }
+
+        li.done {
+            background-color: #dddddd;
+        }
+
+        li.done span {
+            text-decoration: line-through;
+        }
+
+        .icon {
+            margin-right: 15px;
+        }
+
+        .delete {
+            color: darkred;
+            margin-left: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="todo">
+        <h1>My To Do List</h1>
+
+        <ul>
+            <li><span class="icon">☐</span><span>Hit the gym</span><span class="delete">×</span></li>
+            <li class="done"><span class="icon">☑</span><span>Pay bills</span><span class="delete">×</span></li>
+            <li><span class="icon">☐</span><span>Meet John</span><span class="delete">×</span></li>
+            <li><span class="icon">☐</span><span>Buy eggs</span><span class="delete">×</span></li>
+            <li class="done"><span class="icon">☑</span><span>Read a book</span><span class="delete">×</span></li>
+            <li><span class="icon">☐</span><span>Organize office</span><span class="delete">×</span></li>
+            <li><span class="icon">☐</span><span>Eat dinner</span><span class="delete">×</span></li>
+            <li><span class="icon">☐</span><span>Buy apples</span><span class="delete">×</span></li>
+            <li><span class="icon">☐</span><span>Meet George</span><span class="delete">×</span></li>
+            <li><span class="icon">☐</span><span>Feed the cat</span><span class="delete">×</span></li>
+            <li class="done"><span class="icon">☑</span><span>Write a letter</span><span class="delete">×</span></li>
+            <li><span class="icon">☐</span><span>Run 1 km</span><span class="delete">×</span></li>
+        </ul>
+    </div>
+
+</body>
+</html>

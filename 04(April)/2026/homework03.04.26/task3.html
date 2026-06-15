@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #008b8b;
+        }
+
+        .page {
+            height: 100vh;
+            width: 100vw;
+            overflow: auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            color: white;
+            margin-left: 10px;
+        }
+
+        .boards {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .board {
+            min-width: 330px;
+            max-height: 80vh;
+            overflow-y: auto;
+            background-color: #dddddd;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .board h3 {
+            margin-top: 0;
+        }
+
+        .task {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        .task p {
+            font-size: 14px;
+        }
+
+        .icons {
+            color: gray;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <h2>MY BOARDS</h2>
+
+        <div class="boards">
+
+            <div class="board">
+                <h3>To Do</h3>
+
+                <div class="task">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="icons">☰ 4 / 👁 2 / 💬 4</div>
+                </div>
+
+                <div class="task">
+                    <p>In sed eros sed magna cursus.</p>
+                    <div class="icons">☰ 2 / 👁 3 / 💬 7</div>
+                </div>
+
+                <div class="task">
+                    <p>Integer at turpis sed justo feugiat.</p>
+                    <div class="icons">☰ 1 / 👁 1 / 💬 1</div>
+                </div>
+            </div>
+
+            <div class="board">
+                <h3>In Progress</h3>
+
+                <div class="task">
+                    <p>Quisque ut mi eget nisl lacinia cursus.</p>
+                    <div class="icons">☰ 8 / 👁 4 / 💬 4</div>
+                </div>
+
+                <div class="task">
+                    <p>Nunc in urna vitae ante sodales fringilla.</p>
+                    <div class="icons">☰ 2 / 👁 9 / 💬 14</div>
+                </div>
+
+                <div class="task">
+                    <p>In auctor enim vitae arcu interdum fringilla.</p>
+                    <div class="icons">☰ 5 / 👁 2 / 💬 3</div>
+                </div>
+
+                <div class="task">
+                    <p>Donec dapibus urna in neque imperdiet.</p>
+                    <div class="icons">☰ 2 / 👁 7 / 💬 7</div>
+                </div>
+            </div>
+
+            <div class="board">
+                <h3>Test</h3>
+
+                <div class="task">
+                    <p>Sed dapibus tellus id dolor gravida.</p>
+                    <div class="icons">☰ 4 / 👁 2 / 💬 4</div>
+                </div>
+
+                <div class="task">
+                    <p>Suspendisse tempus diam ut sem interdum.</p>
+                    <div class="icons">☰ 0 / 👁 3 / 💬 7</div>
+                </div>
+
+                <div class="task">
+                    <p>Integer id elit at lorem faucibus.</p>
+                    <div class="icons">☰ 1 / 👁 1 / 💬 1</div>
+                </div>
+            </div>
+
+            <div class="board">
+                <h3>Fix</h3>
+
+                <div class="task">
+                    <p>Nulla in proin consectetur lorem.</p>
+                    <div class="icons">☰ 4 / 👁 8 / 💬 1</div>
+                </div>
+
+                <div class="task">
+                    <p>Nulla ac orci a lorem consequat.</p>
+                    <div class="icons">☰ 0 / 👁 3 / 💬 2</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

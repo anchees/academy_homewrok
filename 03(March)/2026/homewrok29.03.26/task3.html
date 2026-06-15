@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 800px;
+            margin: 40px auto;
+        }
+
+        .card {
+            width: 50%;
+            height: 220px;
+            float: left;
+            position: relative;
+            overflow: hidden;
+            background-color: white;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 1s;
+        }
+
+        .card .text {
+            width: 50%;
+            height: 100%;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            background-color: white;
+            box-sizing: border-box;
+        }
+
+        .card .image {
+            width: 50%;
+            height: 100%;
+            float: left;
+            overflow: hidden;
+        }
+
+        .card::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .card:hover::after {
+            opacity: 0.5;
+        }
+
+        .card:hover img {
+            transform: scale(1.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="card">
+            <div class="text">HELLO, WORLD!</div>
+            <div class="image">
+                <img src="https://picsum.photos/300/220?random=1">
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img src="https://picsum.photos/300/220?random=2">
+            </div>
+            <div class="text">HELLO, WORLD!</div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img src="https://picsum.photos/300/220?random=3">
+            </div>
+            <div class="text">HELLO, WORLD!</div>
+        </div>
+
+        <div class="card">
+            <div class="text">HELLO, WORLD!</div>
+            <div class="image">
+                <img src="https://picsum.photos/300/220?random=4">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

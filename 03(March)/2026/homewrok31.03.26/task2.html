@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .menu {
+            width: 80px;
+            height: 100vh;
+            background-color: #888888;
+            position: fixed;
+            left: 0;
+            top: 0;
+            transition: width 1s;
+            overflow: hidden;
+        }
+
+        .menu:hover {
+            width: 230px;
+        }
+
+        .title {
+            color: white;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        .item {
+            color: white;
+            padding: 20px;
+            white-space: nowrap;
+        }
+
+        .item:hover {
+            background-color: #555555;
+        }
+
+        .icon {
+            font-size: 24px;
+            margin-right: 25px;
+        }
+
+        .content {
+            margin-left: 100px;
+            padding: 30px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu">
+        <div class="title">MENU</div>
+
+        <div class="item"><span class="icon">✏️</span>EDIT</div>
+        <div class="item"><span class="icon">❤️</span>FAVORITES</div>
+        <div class="item"><span class="icon">🕘</span>HISTORY</div>
+        <div class="item"><span class="icon">🛡️</span>SECURITY</div>
+        <div class="item"><span class="icon">⚙️</span>SETTINGS</div>
+    </div>
+
+    <div class="content">
+        <h1>What is Lorem Ipsum?</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Integer vitae justo euismod, posuere massa non, tincidunt nisi.
+            Donec vitae lorem at ipsum malesuada tincidunt.
+        </p>
+
+        <h2>Why do we use it?</h2>
+
+        <p>
+            It is used as a simple text for page layout. This text helps to see
+            how the page will look before real content is added.
+        </p>
+
+        <h2>Where does it come from?</h2>
+
+        <p>
+            Lorem ipsum has been used for many years in printing and web design.
+            It is convenient because it looks like ordinary text.
+        </p>
+
+        <p>
+            Scroll the page and move the mouse over the menu. The menu stays
+            on the left side and opens smoothly.
+        </p>
+    </div>
+
+</body>
+</html>

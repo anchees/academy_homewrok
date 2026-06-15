@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+        }
+
+        .card-form {
+            width: 650px;
+            height: 350px;
+            background-color: #9fd1d1;
+            margin: 50px auto;
+            border-radius: 10px;
+            padding-top: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .title {
+            width: 420px;
+            background-color: #d85f16;
+            color: white;
+            padding: 15px;
+            font-weight: bold;
+            margin-left: -20px;
+        }
+
+        form {
+            margin-left: 40px;
+            margin-top: 25px;
+            width: 360px;
+        }
+
+        label {
+            color: #555555;
+            font-size: 13px;
+        }
+
+        input {
+            display: block;
+            width: 280px;
+            padding: 12px;
+            margin: 8px 0 18px;
+            border: none;
+            background-color: #b8dddd;
+        }
+
+        .small {
+            display: inline-block;
+            width: 90px;
+            margin-right: 15px;
+        }
+
+        .planet {
+            width: 230px;
+            height: 230px;
+            background-color: #315f61;
+            border-radius: 50%;
+            position: absolute;
+            right: -45px;
+            bottom: -45px;
+        }
+
+        .planet::after {
+            content: "";
+            width: 120px;
+            height: 35px;
+            background-color: orange;
+            position: absolute;
+            bottom: 45px;
+            right: 5px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-form">
+        <div class="title">CREDIT CARD DETAILS</div>
+
+        <form>
+            <label>Card Number</label>
+            <input type="text" placeholder="1234 5678 9012 3456">
+
+            <label>Name On Card</label>
+            <input type="text" placeholder="Name Surname">
+
+            <label>Expiry Date</label>
+            <label style="margin-left: 75px;">CVV / CVN</label>
+
+            <br>
+
+            <input class="small" type="text" placeholder="02">
+            <input class="small" type="text" placeholder="2027">
+            <input class="small" type="password" placeholder="***">
+        </form>
+
+        <div class="planet"></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+.library {
+    width: 650px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+.input {
+    padding: 10px;
+    width: 180px;
+    border: 1px solid #cccccc;
+}
+
+.valid {
+    border-color: #42bd55;
+    color: #42bd55;
+}
+
+.invalid {
+    border-color: #e84b6a;
+    color: #e84b6a;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    accent-color: #42bd55;
+}
+
+label {
+    margin-right: 20px;
+}
+
+.btn {
+    border: none;
+    padding: 12px 25px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.green {
+    background-color: #36b84c;
+}
+
+.red {
+    background-color: #d94b67;
+}
+
+.green:hover {
+    background-color: #218c34;
+}
+
+.red:hover {
+    background-color: #a83248;
+}
+
+.disabled {
+    background-color: gray;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+textarea {
+    width: 450px;
+    height: 120px;
+    padding: 15px;
+    border: 1px solid #cccccc;
+}

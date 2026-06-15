@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+        }
+
+        .form-box {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: white;
+            box-shadow: 0 0 10px gray;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 35px;
+            gap: 30px;
+        }
+
+        .block {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        h3 {
+            font-weight: normal;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 12px;
+            margin: 12px 0;
+            border: none;
+            border-bottom: 1px solid #999999;
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+            gap: 20px;
+        }
+
+        .row input,
+        .row select {
+            flex: 1;
+        }
+
+        .checks {
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .checks input {
+            width: auto;
+        }
+
+        .bottom {
+            width: 100%;
+            text-align: right;
+            border-top: 1px solid #dddddd;
+            padding-top: 20px;
+        }
+
+        button {
+            background-color: teal;
+            color: white;
+            border: none;
+            padding: 12px 45px;
+        }
+
+        @media (max-width: 600px) {
+            form {
+                display: block;
+            }
+
+            .row {
+                display: block;
+            }
+
+            .bottom {
+                text-align: center;
+            }
+
+            button {
+                width: 70%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-box">
+        <form>
+            <div class="block">
+                <h3>Registration form</h3>
+
+                <input type="text" placeholder="Username">
+                <input type="email" placeholder="Email address">
+
+                <div class="row">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Confirm password">
+                </div>
+            </div>
+
+            <div class="block">
+                <h3>Personal details</h3>
+
+                <div class="row">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+                </div>
+
+                <div class="row">
+                    <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+
+                    <input type="text" placeholder="mm/dd/yyyy">
+                </div>
+            </div>
+
+            <div class="checks">
+                <label>
+                    <input type="checkbox">
+                    I want to receive news and special offers
+                </label>
+
+                <br>
+
+                <label>
+                    <input type="checkbox">
+                    I agree with the Terms and Conditions
+                </label>
+            </div>
+
+            <div class="bottom">
+                <button type="submit">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

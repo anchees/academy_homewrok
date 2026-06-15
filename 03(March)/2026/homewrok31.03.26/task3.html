@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+        }
+
+        .plans {
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .card {
+            display: inline-block;
+            width: 180px;
+            height: 330px;
+            background-color: white;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px gray;
+            transition: 1s;
+            vertical-align: top;
+        }
+
+        .card:hover {
+            width: 210px;
+            height: 370px;
+        }
+
+        .card h3 {
+            margin: 0;
+            padding: 20px;
+            border-bottom: 4px solid;
+        }
+
+        .price {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 20px;
+        }
+
+        .month {
+            color: gray;
+            font-size: 14px;
+        }
+
+        .card p {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        button {
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .red h3 {
+            border-color: crimson;
+        }
+
+        .red button {
+            background-color: crimson;
+        }
+
+        .orange h3 {
+            border-color: orange;
+        }
+
+        .orange button {
+            background-color: orange;
+        }
+
+        .blue h3 {
+            border-color: steelblue;
+        }
+
+        .blue button {
+            background-color: steelblue;
+        }
+
+        .green h3 {
+            border-color: limegreen;
+        }
+
+        .green button {
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="plans">
+
+        <div class="card red">
+            <h3>ENTERPRISE</h3>
+            <div class="price">$69</div>
+            <div class="month">per month</div>
+            <p>10GB disk space</p>
+            <p>100GB bandwidth</p>
+            <p>20 mail accounts</p>
+            <p>Unlimited support</p>
+            <button>BUY</button>
+        </div>
+
+        <div class="card orange">
+            <h3>PROFESSIONAL</h3>
+            <div class="price">$29</div>
+            <div class="month">per month</div>
+            <p>5GB disk space</p>
+            <p>60GB bandwidth</p>
+            <p>10 mail accounts</p>
+            <p>Unlimited support</p>
+            <button>BUY</button>
+        </div>
+
+        <div class="card blue">
+            <h3>STANDARD</h3>
+            <div class="price">$19</div>
+            <div class="month">per month</div>
+            <p>3GB disk space</p>
+            <p>30GB bandwidth</p>
+            <p>5 mail accounts</p>
+            <p>Unlimited support</p>
+            <button>BUY</button>
+        </div>
+
+        <div class="card green">
+            <h3>BASIC</h3>
+            <div class="price">$9</div>
+            <div class="month">per month</div>
+            <p>1GB disk space</p>
+            <p>10GB bandwidth</p>
+            <p>2 mail accounts</p>
+            <p>Unlimited support</p>
+            <button>BUY</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

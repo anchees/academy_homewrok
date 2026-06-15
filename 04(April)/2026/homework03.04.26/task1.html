@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+        }
+
+        .news {
+            width: 900px;
+            margin: 30px auto;
+            background-color: lightblue;
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .column {
+            flex: 1;
+        }
+
+        .card {
+            background-color: white;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            height: 120px;
+            background-color: #bbbbbb;
+            color: gray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+        }
+
+        .card h3 {
+            padding: 10px;
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .card p {
+            padding: 0 10px 15px;
+            margin: 0;
+            font-size: 14px;
+        }
+
+        @media (max-width: 700px) {
+            .news {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="news">
+        <div class="column">
+            <div class="card">
+                <div class="image">350 x 150</div>
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="card">
+                <div class="image">350 x 220</div>
+                <h3>Small news</h3>
+                <p>Aenean feugiat dui et libero consectetur hendrerit.</p>
+            </div>
+
+            <div class="card">
+                <div class="image">350 x 100</div>
+                <h3>Title</h3>
+                <p>Mauris nec purus nec ligula euismod convallis.</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <div class="image">350 x 100</div>
+                <h3>Another title</h3>
+                <p>Aliquam ornare nulla a velit vehicula.</p>
+            </div>
+
+            <div class="card">
+                <div class="image">350 x 230</div>
+                <h3>The title</h3>
+                <p>In ultrices lorem id consectetur tempus.</p>
+            </div>
+
+            <div class="card">
+                <div class="image">350 x 150</div>
+                <h3>News title</h3>
+                <p>Nulla ut justo iaculis, faucibus tortor non.</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <div class="image">350 x 100</div>
+                <h3>A little longer title</h3>
+                <p>Aenean accumsan turpis gravida feugiat.</p>
+            </div>
+
+            <div class="card">
+                <div class="image">350 x 350</div>
+                <h3>A title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="card">
+                <div class="image">350 x 150</div>
+                <h3>Last news</h3>
+                <p>Vivamus ac tortor vel quam viverra tristique.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

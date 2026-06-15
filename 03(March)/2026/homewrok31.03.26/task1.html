@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .table-box {
+            width: 700px;
+            height: 350px;
+            margin: 40px auto;
+            overflow: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 900px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightblue;
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+
+        td:first-child,
+        th:first-child {
+            background-color: lightblue;
+            font-weight: bold;
+            position: sticky;
+            left: 0;
+            z-index: 1;
+        }
+
+        th:first-child {
+            z-index: 3;
+        }
+
+        tr:nth-child(even) {
+            background-color: #eeeeee;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="table-box">
+        <table>
+            <tr>
+                <th>Line</th>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+                <th>Header 5</th>
+                <th>Header 6</th>
+            </tr>
+
+            <tr><td>Line 1</td><td>23</td><td>123</td><td>43</td><td>12</td><td>76</td><td>45</td></tr>
+            <tr><td>Line 2</td><td>34</td><td>63</td><td>25</td><td>7</td><td>23</td><td>90</td></tr>
+            <tr><td>Line 3</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td></tr>
+            <tr><td>Line 4</td><td>45</td><td>21</td><td>56</td><td>78</td><td>12</td><td>43</td></tr>
+            <tr><td>Line 5</td><td>12</td><td>45</td><td>67</td><td>89</td><td>11</td><td>24</td></tr>
+            <tr><td>Line 6</td><td>90</td><td>33</td><td>44</td><td>55</td><td>66</td><td>77</td></tr>
+            <tr><td>Line 7</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td><td>23</td></tr>
+            <tr><td>Line 8</td><td>11</td><td>22</td><td>33</td><td>44</td><td>55</td><td>66</td></tr>
+            <tr><td>Line 9</td><td>67</td><td>76</td><td>45</td><td>34</td><td>21</td><td>10</td></tr>
+            <tr><td>Line 10</td><td>10</td><td>20</td><td>30</td><td>40</td><td>50</td><td>60</td></tr>
+        </table>
+    </div>
+
+</body>
+</html>

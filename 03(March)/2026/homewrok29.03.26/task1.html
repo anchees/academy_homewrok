@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        .clock {
+            width: 300px;
+            height: 300px;
+            border: 5px solid teal;
+            border-radius: 50%;
+            margin: 80px auto;
+            position: relative;
+        }
+
+        .center {
+            width: 14px;
+            height: 14px;
+            background-color: teal;
+            border-radius: 50%;
+            position: absolute;
+            top: 143px;
+            left: 143px;
+            z-index: 3;
+        }
+
+        .hour {
+            width: 5px;
+            height: 90px;
+            background-color: teal;
+            position: absolute;
+            left: 147px;
+            top: 60px;
+            transform-origin: bottom;
+            animation: rotate 20s linear infinite;
+        }
+
+        .minute {
+            width: 3px;
+            height: 120px;
+            background-color: teal;
+            position: absolute;
+            left: 148px;
+            top: 30px;
+            transform-origin: bottom;
+            animation: rotate 5s linear infinite;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="clock">
+        <div class="hour"></div>
+        <div class="minute"></div>
+        <div class="center"></div>
+    </div>
+
+</body>
+</html>

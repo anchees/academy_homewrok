@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+        }
+
+        .chat {
+            width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .message {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+        }
+
+        .message.left {
+            justify-content: flex-start;
+        }
+
+        .message.right {
+            justify-content: flex-end;
+        }
+
+        .user {
+            width: 120px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .time {
+            color: gray;
+            font-size: 11px;
+        }
+
+        .avatar {
+            font-size: 35px;
+            margin: 0 10px;
+        }
+
+        .text {
+            width: 350px;
+            padding: 15px;
+            border-radius: 15px;
+            font-size: 14px;
+        }
+
+        .pink {
+            background-color: pink;
+        }
+
+        .blue {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="chat">
+
+        <div class="message left">
+            <div class="user">
+                Alice Smith<br>
+                <span class="time">4 hours ago</span>
+            </div>
+            <div class="avatar">👩</div>
+            <div class="text pink">Hello! How are you today?</div>
+        </div>
+
+        <div class="message right">
+            <div class="text blue">Hi! I am fine, thanks. What about you?</div>
+            <div class="avatar">👨</div>
+            <div class="user">
+                Jack Wilson<br>
+                <span class="time">4 hours ago</span>
+            </div>
+        </div>
+
+        <div class="message left">
+            <div class="user">
+                Alice Smith<br>
+                <span class="time">3 hours ago</span>
+            </div>
+            <div class="avatar">👩</div>
+            <div class="text pink">I am doing my homework in HTML and CSS.</div>
+        </div>
+
+        <div class="message right">
+            <div class="text blue">Sounds good. Flexbox is very useful.</div>
+            <div class="avatar">👨</div>
+            <div class="user">
+                Jack Wilson<br>
+                <span class="time">3 hours ago</span>
+            </div>
+        </div>
+
+        <div class="message left">
+            <div class="user">
+                Alice Smith<br>
+                <span class="time">2 hours ago</span>
+            </div>
+            <div class="avatar">👩</div>
+            <div class="text pink">Yes, now I understand it better.</div>
+        </div>
+
+        <div class="message right">
+            <div class="text blue">Great! Good luck with your task.</div>
+            <div class="avatar">👨</div>
+            <div class="user">
+                Jack Wilson<br>
+                <span class="time">2 hours ago</span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
